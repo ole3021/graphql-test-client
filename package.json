@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@progress/kendo-react-dateinputs": "^2.10.0",
+    "@progress/kendo-react-intl": "^2.10.0",
+    "apollo-boost": "^0.3.1",
+    "dayjs": "^1.8.13",
+    "graphql": "^14.2.1",
+    "nes.css": "^2.1.1",
     "react": "^16.8.6",
+    "react-apollo": "^2.5.5",
     "react-dom": "^16.8.6",
+    "react-paginate": "^6.3.0",
     "react-scripts": "3.0.0"
   },
   "scripts": {
