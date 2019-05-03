@@ -1,33 +1,36 @@
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+  font-family: 'Press Start 2P';
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.k-dateinput-wrap .k-input {
+  border: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pagination {
+  padding-left: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style-type: none;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination a {
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination .active a {
+  color: #007bff;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
 }
