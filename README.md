@@ -12,6 +12,7 @@ _The app client will use `localhost:3000/grapql` as the graphql endpoint._
   ![image](https://user-images.githubusercontent.com/2676686/57124520-acadeb80-6db8-11e9-93f6-35c11830f177.png)
 - Create a reservation
   ![image](https://user-images.githubusercontent.com/2676686/57124847-e29f9f80-6db9-11e9-861d-8bf249214bb6.png)
+  > To make a reservation the `ArrivalAt` needs to a timestamp that after current datetime. and the Deparature can't be over a year after current timestamp.
 - List all reservations with pagination
 
 ## Insteallation
